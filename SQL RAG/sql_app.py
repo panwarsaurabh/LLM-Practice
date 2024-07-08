@@ -64,7 +64,7 @@ class JSONLoader(BaseLoader):
 
 if __name__ == '__main__':
 
-    file_path = 'columns_description.json'
+    file_path = r'C:\Users\SPanwar1\OneDrive - Rockwell Automation, Inc\Documents\Pycharm Projects\LLM Langchain\SQL RAG\columns_description.json'
     loader = JSONLoader(file_path=file_path)
     data = loader.load()
 
