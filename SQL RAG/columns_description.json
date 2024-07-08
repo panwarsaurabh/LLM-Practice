@@ -1,0 +1,58 @@
+{
+    "KPI" : "R vs C",
+    "Description": "this is SQL schema which gives Requirement VS Committment values for the individual SKU level.",
+    "columns" :
+                [
+                    {
+                        "name" : "RvC_FML",
+                        "Description": " MSSQL Table Name"
+                    },
+                    {
+                        "name" : "SBU_ID",
+                        "Description": " Market id of the specific Product"   
+                    },
+                    {
+                        "name" : "Location_ID",
+                        "Description": " Plant ID in which the SKU is produced"   
+                    },
+                    {
+                        "name" : "StartDate",
+                        "Description": "Start Date of SKU production in format yyyy-mm-dd"
+                    },
+                    {
+                        "name" : "EndDate",
+                        "Description": "End Date of SKU production in format yyyy-mm-dd"
+                    },
+                    {
+                        "name" : "SKU_ID",
+                        "Description": "ID of SKU "   
+                    },
+                    {
+                        "name" : "Requirement",
+                        "Description": "Requirement generated for the SKU"   
+                    },
+                    {
+                        "name" : "Commitment",
+                        "Description": "Commitment given for the SKU"   
+                    },
+                    {
+                        "name" : "COGM",
+                        "Description": "Cost of Goods Manufatured"   
+                    },
+                    {
+                        "name" : "OverCommitment",
+                        "Description": "Calculated value of Over Commitment"   
+                    },
+                    {
+                        "name" : "UnderCommitment",
+                        "Description": "Calculated value of Under Commitment"   
+                    },
+                    {
+                        "name" : "RvC",
+                        "Description": "Value for R vs C for that SKU"   
+                    }
+
+                    
+                ]
+
+}
